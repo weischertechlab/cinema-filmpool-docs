@@ -45,7 +45,7 @@ Authorization: Bearer [ACCESS_TOKEN]
 Alle Metadaten für den Film mit der Comscore ID "234935".
 
 Query:
-```JSON
+```gql
     {
       movies (filter: "comscoreId = '234935'") {
         id
@@ -178,7 +178,7 @@ JSON Result:
 Alle Metadaten für den Film mit der Comscore ID "234935" und dessen verfügbaren und gültigen Bildmaterialen von der Kategorie "Foyer" im deutschen Markt.
 
 Query:
-```JSON
+```gql
     {
       foyers(filter: "movie.comscoreId = '234935' and countryCode == 'DE' and isContentAvailable == true and isValid == true") {
         movie {
@@ -377,7 +377,7 @@ JSON Result:
 Alle Metadaten für den Film mit der Comscore ID "123456" und dessen verfügbaren und gültigen Videomaterialien von der Kategorie "Videoclip" im deutschen Markt
 
 Query:
-```JSON
+```gql
 {
       videoclips (filter: "movie.comscoreId = '234935' and countryCode == 'DE' and isContentAvailable == true and isValid == true") {
         movie {
