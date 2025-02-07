@@ -112,7 +112,7 @@ Query:
 ```
 
 JSON Result:
-```JSON
+```
     {
       "data": {
         "movie": {
@@ -262,7 +262,7 @@ Query:
 ```
 
 JSON Result:
-```JSON
+```
     {
       "data": {
         "foyers": {
@@ -466,7 +466,7 @@ Query:
 ```
 
 JSON Result:
-```JSON
+```
 {
   "data": {
     "videoclips": [
