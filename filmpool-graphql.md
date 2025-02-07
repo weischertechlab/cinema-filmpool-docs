@@ -5,7 +5,7 @@ Die API zur Abfrage von Metadaten aus dem Filmpool basiert auf GraphQL.
 GraphQL Types mit Queries und Mutations werden mit der Schema Definition Language (SDL) beschrieben
 Queries sind lesende Operationen, Mutations sind schreibende Operationen. Mutations sind ausgeschaltet.
 
-<A  href="https://entitygraphql.github.io/docs/intro">Introduction | Entity GraphQL</A>
+[Introduction | Entity GraphQL](https://entitygraphql.github.io/docs/intro)
 
 ## 1.1. Machine 2 Machine Authentifizierung & Autorisierung
 
